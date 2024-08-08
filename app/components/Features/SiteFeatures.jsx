@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './SiteFeatures.module.css'
 import Image from 'next/image'
+import Waves from '../Global/waves'
 
 const featureData = [
     {
@@ -22,7 +23,8 @@ const featureData = [
 
 export default function SiteFeatures() {
     return (
-        <section className={`${styles.siteFeature} sectionTop bg-[#FCFCB2]`}>
+        <section className={`${styles.siteFeature} relative bg-[#FCFCB2]`}>
+            <Waves bg="#FEF8E0" />
             <div className="container mx-auto">
                 <div className="flex justify-between">
                     {featureData.map((feature, index) => (

@@ -7,8 +7,8 @@ import Link from 'next/link'
 
 export default function HomeHero() {
   return (
-    <section className={`${styles.homeHero} pt-12 relative bg-[#FADB67]`}>
-      <Waves bg="#FADB67" />
+    <section className={`${styles.homeHero} relative bg-[#FADB67]`}>
+      <Waves bg="#FCFCB2" />
       <div className="container mx-auto">
         <div className="flex items-center">
           <div className='w-3/5'>
