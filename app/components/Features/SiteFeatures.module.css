@@ -1,0 +1,30 @@
+.siteFeature{
+    padding: 150px 0 50px;
+}
+
+.innerBox{
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 48px rgba(28,51,64,.1);
+    background: #fff;
+    transition: all .3s linear;
+}
+
+.innerBox img{
+    margin:0 auto 10px;
+}
+
+.innerBox h2{
+    font-size: 26px;
+    line-height: .8;
+    margin: 20px 0;
+}
+
+.innerBox p{
+    font-size: 18px;
+}
+
+.innerBox:hover{
+    transform: translateY(-15px);
+}

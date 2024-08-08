@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body{
-  background: #F5B97A ;
+  background: #FADB67;
+}
+.sectionTop{
+  margin-top: 250px;
 }

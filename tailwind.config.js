@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         magilio: ['var(--magilio)'],
+        itim: ['var(--itim)'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
