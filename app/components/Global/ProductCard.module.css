@@ -1,0 +1,53 @@
+.mainCard {
+    background: #fff;
+    box-shadow: 4px 4px 48px rgba(28, 51, 64, .1);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.mainCard img {
+    border-radius: 15px;
+}
+
+.mainCard .productData {
+    padding: 20px;
+}
+
+.mainCard .productData h3 {
+    font-size: 20px;
+}
+
+.mainCard .productData .price {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.mainCard .productData .primaryBtn {
+    background: #F5B97A;
+    border: 2px solid #F5B97A;
+    color: #fff;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.mainCard .productData .secondaryBtn {
+    border: 2px solid #F5B97A;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.mainCard .productData .primaryBtn:hover {
+    background: #fff;
+    border: 2px solid #F5B97A;
+    color: #F5B97A;
+}
+
+.mainCard .productData .secondaryBtn:hover{
+    border: 2px solid #F5B97A;
+    background: #F5B97A;
+    color: #fff;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './SiteFeatures.module.css'
 import Image from 'next/image'
-import Waves from '../Global/waves'
+import Waves from '../../Global/waves'
 
 const featureData = [
     {

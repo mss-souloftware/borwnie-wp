@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import Waves from '../Global/waves'
-import ButtonPrimary from '../Global/ButtonPrimary'
+import Waves from '../../Global/waves'
+import ButtonPrimary from '../../Global/ButtonPrimary'
 import styles from './Hero.module.css'
 import Link from 'next/link'
 
